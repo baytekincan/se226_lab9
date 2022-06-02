@@ -36,9 +36,9 @@ def create_Table():
     CURSOR.execute("DROP TABLE IF EXISTS Marvel")
     mysql_Create_Table = '''CREATE TABLE Marvel(
                   ID INT,
-                  MOVIE VARCHAR(150),
-                  DATE VARCHAR(200),
-                  MCU_PHASE VARCHAR(152)
+                  MOVIE VARCHAR(100),
+                  DATE VARCHAR(100),
+                  MCU_PHASE VARCHAR(100)
                 )'''
     CURSOR.execute( mysql_Create_Table)
 
